@@ -24,6 +24,9 @@
 ui
 http://localhost:9000/
 
+запуск
+docker-compose -f docker-compose-otuskafka.yml up
+
 создать топик
 kafka-topics --bootstrap-server kafka1:9191 --create --topic test --replication-factor 1 --partitions 3
 
