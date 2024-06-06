@@ -33,3 +33,6 @@ kafka-console-producer --bootstrap-server kafka1:9191 --topic test
 прочитать сообщение
 kafka-console-consumer --bootstrap-server kafka1:9191 --topic test --group testuser --from-beginning
 
+дополнительные ресурсы
+https://github.com/OtusTeam/OTUS-Kafka
+https://github.com/Magnusyatina/kafka-homework/tree/master/hw1
